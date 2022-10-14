@@ -1,8 +1,7 @@
-package org.ingestionexamples.etl.XML
+package org.eztl.xml
 
 import org.apache.spark.sql.expressions.UserDefinedFunction
 import org.apache.spark.sql.functions.udf
-import org.eztl.xml.tXMLParserAdapter
 import org.jsoup.Jsoup
 import org.jsoup.parser.Parser
 import scala.collection.mutable.ArrayBuffer
