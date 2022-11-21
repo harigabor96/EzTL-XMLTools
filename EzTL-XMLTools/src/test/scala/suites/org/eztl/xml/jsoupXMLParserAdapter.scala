@@ -1,9 +1,9 @@
 package suites.org.eztl.xml
 
-import org.eztl.xml.jsoupXMLParserAdapter._
+import org.eztl.xml.JsoupXMLParserAdapter._
 import org.scalatest.funsuite.AnyFunSuite
 
-class jsoupXMLParserAdapter extends AnyFunSuite {
+class JsoupXMLParserAdapter extends AnyFunSuite {
 
   test("_cleanup_xml_tags()") {
     assert(_cleanup_xml_tags("") == "")

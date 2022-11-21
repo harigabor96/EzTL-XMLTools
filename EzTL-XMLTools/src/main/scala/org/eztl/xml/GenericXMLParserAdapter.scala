@@ -3,7 +3,7 @@ package org.eztl.xml
 import org.apache.spark.sql.expressions.UserDefinedFunction
 import org.apache.spark.sql.functions.udf
 
-trait tXMLParserAdapter {
+trait GenericXMLParserAdapter {
 
   //Cleans up all XML tags, including nested one, from a String containing XML
   def _cleanup_xml_tags(XMLString: String): String

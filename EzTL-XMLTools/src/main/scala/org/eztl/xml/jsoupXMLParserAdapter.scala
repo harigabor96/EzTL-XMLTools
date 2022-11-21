@@ -8,7 +8,7 @@ import scala.collection.mutable.ArrayBuffer
 import org.jsoup.nodes.Document
 import org.jsoup.safety.Whitelist
 
-object jsoupXMLParserAdapter extends tXMLParserAdapter {
+object JsoupXMLParserAdapter extends GenericXMLParserAdapter {
 
   private def parseXML(XMLString: String): Document = {
     val parser = Jsoup.parse(XMLString, "", Parser.xmlParser())
